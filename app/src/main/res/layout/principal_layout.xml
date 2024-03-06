@@ -1,27 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_weight="0"
+        android:height="10dp"
+        android:backgroundTint="#B87A8F"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Agenda de contatos"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/camponome"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="TextView" />
+        android:layout_height="64dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0"
+        android:height="0dp"
+        android:elegantTextHeight="false"
+        android:ems="10"
+        android:inputType="text"
+        android:maxHeight="0dp"
+        android:text="Nome" />
+
+    <EditText
+        android:id="@+id/campotelefone"
+        android:layout_width="312dp"
+        android:layout_height="72dp"
+        android:layout_weight="0"
+        android:ems="10"
+        android:inputType="text"
+        android:text="E-mail" />
+
+    <EditText
+        android:id="@+id/campotelefone"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="0"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Telefone" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Button" />
+        android:id="@+id/salvar"
+        android:layout_width="220dp"
+        android:layout_height="65dp"
+        android:layout_margin="40dp"
+        android:layout_weight="0"
+        android:backgroundTint="#E91E63"
+        android:text="Salvar contato"
+        android:textAlignment="center"
+        app:icon="@android:drawable/btn_dialog" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Button" />
 </LinearLayout>
