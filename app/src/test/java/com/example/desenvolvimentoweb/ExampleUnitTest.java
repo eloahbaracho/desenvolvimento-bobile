@@ -1,4 +1,4 @@
-package com.example.desenvolvimento_web;
+package com.example.desenvolvimentoweb;
 
 import org.junit.Test;
 

@@ -11,6 +11,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Desenvolvimentoweb"
-        tools:targetApi="31" />
-
+        tools:targetApi="31">
+        <!-- Cadastro de atividade -->
+        <activity android:name="com.example.teste.AtividadeI" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.action.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
 </manifest>
